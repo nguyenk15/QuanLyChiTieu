@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="barButtonAn.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonAn.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonAn.LargeGlyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonAn.LargeGlyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonBCHienTai.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonBCHienTai.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonBCNam.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonBCNam.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonBCPhanTichChiTieu.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonBCPhanTichChiTieu.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonBCQuy.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonBCQuy.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonBCThang.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonBCThang.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonExit.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonExit.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonExit.LargeGlyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonExit.LargeGlyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonGCChi.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonGCChi.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonGCChiTiet.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonGCChiTiet.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonGCChoVay.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonGCChoVay.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonGCDiVay.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonGCDiVay.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonGCThuNhap.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonGCThuNhap.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonGCThuNo.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonGCThuNo.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonGCTongQuan.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonGCTongQuan.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonGCTongThu.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonGCTongThu.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonGCTraNo.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonGCTraNo.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonHide.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonHide.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonInBaoCao.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonInBaoCao.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonThietLap.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonThietLap.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonThietLap.LargeGlyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonThietLap.LargeGlyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonThongTin.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonThongTin.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonThongTin.LargeGlyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonThongTin.LargeGlyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonTKATM.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonTKATM.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonTKSoTietKiem.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonTKSoTietKiem.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonTKVi.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonTKVi.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonTongChi.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonTongChi.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonTroGiup.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonTroGiup.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barButtonTroGiup.LargeGlyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barButtonTroGiup.LargeGlyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbtnHome.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bbtnHome.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbtnHome.LargeGlyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bbtnHome.LargeGlyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnThu.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnThu.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rbBaoCao.Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rbBaoCao.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rbGhiChep.Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rbGhiChep.Image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rbPGGCTongQuan.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rbPGGCTongQuan.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rbPGTKVi.Glyph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rbPGTKVi.Glyph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rbTaiKhoan.Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rbTaiKhoan.Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

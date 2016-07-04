@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0136B353-A184-4748-9CE1-FB4A8797E404}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuanLiChiTieu</RootNamespace>
+    <AssemblyName>QuanLiChiTieu</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Project\Final\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>464B46E6E4B0BA1DA0959A8B64C105C1629F2616</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>QuanLiChiTieu_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v14.1" />
+    <Reference Include="DevExpress.Printing.v14.1.Core" />
+    <Reference Include="DevExpress.Utils.v14.1" />
+    <Reference Include="DevExpress.XtraBars.v14.1" />
+    <Reference Include="DevExpress.Sparkline.v14.1.Core" />
+    <Reference Include="DevExpress.XtraEditors.v14.1" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaoCao\Ngay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaoCao\Ngay.designer.cs">
+      <DependentUpon>Ngay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaoCao\TrongKhoang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaoCao\TrongKhoang.designer.cs">
+      <DependentUpon>TrongKhoang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetting.designer.cs">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThongTin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThongTin.designer.cs">
+      <DependentUpon>frmThongTin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTrangChinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrangChinh.designer.cs">
+      <DependentUpon>frmTrangChinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTroGiup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTroGiup.designer.cs">
+      <DependentUpon>frmTroGiup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GhiChep\ChiTiet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GhiChep\ChiTiet.Designer.cs">
+      <DependentUpon>ChiTiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GhiChep\Chi\ChiTieu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GhiChep\Chi\ChiTieu.designer.cs">
+      <DependentUpon>ChiTieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GhiChep\Chi\ChoVay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GhiChep\Chi\ChoVay.designer.cs">
+      <DependentUpon>ChoVay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GhiChep\Chi\TongChi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GhiChep\Chi\TongChi.Designer.cs">
+      <DependentUpon>TongChi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GhiChep\Chi\TraNo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GhiChep\Chi\TraNo.Designer.cs">
+      <DependentUpon>TraNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GhiChep\Thu\DiVay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GhiChep\Thu\DiVay.Designer.cs">
+      <DependentUpon>DiVay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GhiChep\Thu\ThuNhap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GhiChep\Thu\ThuNhap.designer.cs">
+      <DependentUpon>ThuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GhiChep\Thu\ThuNo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GhiChep\Thu\ThuNo.Designer.cs">
+      <DependentUpon>ThuNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GhiChep\Thu\TongThu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GhiChep\Thu\TongThu.Designer.cs">
+      <DependentUpon>TongThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GhiChep\TongQuan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GhiChep\TongQuan.Designer.cs">
+      <DependentUpon>TongQuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LoginUC.designer.cs">
+      <DependentUpon>LoginUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\frmInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\frmInfo.Designer.cs">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaiKhoan\ATM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaiKhoan\ATM.designer.cs">
+      <DependentUpon>ATM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaiKhoan\Khac.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaiKhoan\Khac.designer.cs">
+      <DependentUpon>Khac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaiKhoan\SoTietKiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaiKhoan\SoTietKiem.designer.cs">
+      <DependentUpon>SoTietKiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaiKhoan\Vi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaiKhoan\Vi.designer.cs">
+      <DependentUpon>Vi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BaoCao\Ngay.resx">
+      <DependentUpon>Ngay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\TrongKhoang.resx">
+      <DependentUpon>TrongKhoang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThongTin.resx">
+      <DependentUpon>frmThongTin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTroGiup.resx">
+      <DependentUpon>frmTroGiup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaiKhoan\ATM.resx">
+      <DependentUpon>ATM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaiKhoan\Khac.resx">
+      <DependentUpon>Khac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaiKhoan\SoTietKiem.resx">
+      <DependentUpon>SoTietKiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaiKhoan\Vi.resx">
+      <DependentUpon>Vi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataClasses1.dbml.layout">
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetting.resx">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTrangChinh.resx">
+      <DependentUpon>frmTrangChinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GhiChep\ChiTiet.resx">
+      <DependentUpon>ChiTiet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GhiChep\Chi\ChiTieu.resx">
+      <DependentUpon>ChiTieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GhiChep\Chi\ChoVay.resx">
+      <DependentUpon>ChoVay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GhiChep\Chi\TongChi.resx">
+      <DependentUpon>TongChi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GhiChep\Chi\TraNo.resx">
+      <DependentUpon>TraNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GhiChep\Thu\DiVay.resx">
+      <DependentUpon>DiVay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GhiChep\Thu\ThuNhap.resx">
+      <DependentUpon>ThuNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GhiChep\Thu\ThuNo.resx">
+      <DependentUpon>ThuNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GhiChep\Thu\TongThu.resx">
+      <DependentUpon>TongThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GhiChep\TongQuan.resx">
+      <DependentUpon>TongQuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginUC.resx">
+      <DependentUpon>LoginUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\frmInfo.resx">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="DataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QuanLiChiTieu_TemporaryKey.pfx" />
+    <None Include="Resources\rbGhiChep.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonAn.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonAn.LargeGlyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonBCHienTai.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonBCNam.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonBCPhanTichChiTieu.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonBCQuy.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonBCThang.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonExit.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonExit.LargeGlyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonGCChi.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonGCChiTiet.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonGCChoVay.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonGCDiVay.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonGCThuNhap.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonGCThuNo.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonGCTongQuan.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonGCTongThu.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonGCTraNo.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonHide.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonInBaoCao.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonThietLap.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonThietLap.LargeGlyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonThongTin.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonThongTin.LargeGlyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonTKATM.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonTKSoTietKiem.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonTKVi.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonTongChi.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonTroGiup.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barButtonTroGiup.LargeGlyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbtnHome.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbtnHome.LargeGlyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnThu.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rbBaoCao.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rbGhiChep.Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rbPGGCTongQuan.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rbPGTKVi.Glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rbTaiKhoan.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QuanLyChiTieu" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=HOANGNGUYENDEV\HOANGNGUYENDEV;Initial Catalog=QuanLyChiTieu;Integrated Security=True" SettingsObjectName="QuanLiChiTieu.Properties.Settings" SettingsPropertyName="QuanLyChiTieuConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.DangNhap" Member="DangNhaps">
+    <Type Name="DangNhap">
+      <Column Name="tendangnhap" Type="System.String" DbType="Char(50)" CanBeNull="true" />
+      <Column Name="matkhau" Type="System.String" DbType="Char(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Chovay" Member="Chovays">
+    <Type Name="Chovay">
+      <Column Name="STT" Member="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NguoiVay" Member="Người_Vay" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SoTien" Member="Số_Tiền" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TaiKhoan" Member="Tài_Khoản" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MucDich" Member="Mục_Đích" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="DienGiai" Member="Diễn_Giải" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Ngay" Member="Ngày" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Chitieu" Member="Chitieus">
+    <Type Name="Chitieu">
+      <Column Name="STT" Member="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenSP" Member="Tên_SP" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="SoLuong" Member="Số_Lượng" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SoTien" Member="Số_Tiền" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TaiKhoan" Member="Tài_Khoản" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MucDich" Member="Mục_Đích" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Ngay" Member="Ngày" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Divay" Member="Divays">
+    <Type Name="Divay">
+      <Column Name="STT" Member="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NguoiChoVay" Member="Người_Cho_Vay" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SoTien" Member="Số_Tiền" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TaiKhoan" Member="Tài_Khoản" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MucDich" Member="Mục_Đích" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="DienGiai" Member="Diễn_Giải" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Ngay" Member="Ngày" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Trano" Member="Tranos">
+    <Type Name="Trano">
+      <Column Name="STT" Member="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NguoiChoVay" Member="Người_Cho_Vay" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SoTien" Member="Số_Tiền" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TaiKhoan" Member="Tài_Khoản" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MucDich" Member="Mục_Đích" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="DienGiai" Member="Diễn_Giải" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Ngay" Member="Ngày" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Thuno" Member="Thunos">
+    <Type Name="Thuno">
+      <Column Name="STT" Member="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NguoiVay" Member="Người_Vay" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SoTien" Member="Số_Tiền" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TaiKhoan" Member="Tài_Khoản" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MucDich" Member="Mục_Đích" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="DienGiai" Member="Diễn_Giải" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Ngay" Member="Ngày" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Thunhap" Member="Thunhaps">
+    <Type Name="Thunhap">
+      <Column Name="STT" Member="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MucDich" Member="Mục_Đích" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="SoTien" Member="Số_Tiền" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Ngay" Member="Ngày" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="TaiKhoan" Member="Tài_Khoản" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="DienGiai" Member="Diễn_Giải" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
